@@ -1,0 +1,21 @@
++ nproc
+4
++ uptime
+ 15:18:44 up 5 min,  0 user,  load average: 3.30, 2.02, 0.85
++ free -h
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       953Mi        11Gi        50Mi       3.5Gi        14Gi
+Swap:          4.0Gi          0B       4.0Gi
++ df -hT
+Filesystem     Type   Size  Used Avail Use% Mounted on
+/dev/root      ext4    72G   47G   26G  65% /
+tmpfs          tmpfs  7.9G   84K  7.9G   1% /dev/shm
+tmpfs          tmpfs  3.2G  1.1M  3.2G   1% /run
+tmpfs          tmpfs  5.0M     0  5.0M   0% /run/lock
+/dev/sda16     ext4   881M   60M  760M   8% /boot
+/dev/sda15     vfat   105M  6.2M   99M   6% /boot/efi
+/dev/sdb1      ext4    74G  4.1G   66G   6% /mnt
+tmpfs          tmpfs  1.6G   12K  1.6G   1% /run/user/1001
++ df .
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/root       75085112 48625444  26443284  65% /

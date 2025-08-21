@@ -1,0 +1,24 @@
++ nproc
+4
++ uptime
+ 15:18:43 up 22 min,  0 user,  load average: 34.58, 19.13, 7.91
++ free -h
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       705Mi        11Gi       6.5Mi       3.0Gi        14Gi
+Swap:             0B          0B          0B
++ df -hT
+Filesystem                                                         Type           Size  Used Avail Use% Mounted on
++ df .
+/dev/vg_lxc/containers_prodUsSouth4--76033065--538746--48524204989 ext4            69G   19G   47G  29% /
+none                                                               tmpfs          512K   64K  448K  13% /dev
+tmpfs                                                              tmpfs          128K     0  128K   0% /dev/lxd
+/dev/mapper/mpathb2                                                xfs            120G   65G   56G  54% /dev/kmsg
+tmpfs                                                              tmpfs          128K     0  128K   0% /dev/.lxd-mounts
+tmpfs                                                              tmpfs           35G  128K   35G   1% /dev/shm
+tmpfs                                                              tmpfs           14G  3.4M   14G   1% /run
+tmpfs                                                              tmpfs          5.0M     0  5.0M   0% /run/lock
+snapfuse                                                           fuse.snapfuse   75M   75M     0 100% /snap/core22/2048
+snapfuse                                                           fuse.snapfuse  106M  106M     0 100% /snap/lxd/33104
+snapfuse                                                           fuse.snapfuse   45M   45M     0 100% /snap/snapd/24789
+Filesystem                                                         1K-blocks     Used Available Use% Mounted on
+/dev/vg_lxc/containers_prodUsSouth4--76033065--538746--48524204989  71514824 19147788  48688544  29% /
