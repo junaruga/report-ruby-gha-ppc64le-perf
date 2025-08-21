@@ -155,7 +155,7 @@ is also a problem.
 
 * `report/x86_64/mpstat.log`: `nproc`: CPU number: 4, `mpstat`: `4 CPU`
 * `report/arm64/mpstat.log`: `nproc` CPU number: 4, `mpstat`: `4 CPU`
-* `report/ppc64le/mpstat.log`: `nproc` CPU number: 4, `mpstat`: **`192 CPU`**`
+* `report/ppc64le/mpstat.log`: `nproc` CPU number: 4, `mpstat`: **`192 CPU`**
 * `report/s390x/mpstat.log`: `nproc` CPU number: 4, `mpstat`: **`8 CPU`**
 
 ### cgroups sys files
