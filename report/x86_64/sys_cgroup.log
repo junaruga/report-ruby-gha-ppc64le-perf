@@ -1,0 +1,22 @@
++ cat /sys/fs/cgroup/cpuset.cpus.effective
+0-3
++ sleep 0.1
++ cat /sys/fs/cgroup/cpuset.cpus
+cat: /sys/fs/cgroup/cpuset.cpus: No such file or directory
++ :
++ sleep 0.1
++ cat /sys/fs/cgroup/cpu.max
+cat: /sys/fs/cgroup/cpu.max: No such file or directory
++ :
++ sleep 0.1
++ cat /sys/fs/cgroup/cpu.stat
+usage_usec 41145000
+user_usec 27117000
+system_usec 14028000
+nice_usec 2095000
+core_sched.force_idle_usec 0
+nr_periods 0
+nr_throttled 0
+throttled_usec 0
+nr_bursts 0
+burst_usec 0

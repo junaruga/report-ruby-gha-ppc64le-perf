@@ -1,0 +1,16 @@
++ cat /sys/fs/cgroup/cpuset.cpus.effective
+1-4
++ sleep 0.1
++ cat /sys/fs/cgroup/cpuset.cpus
+1-4
++ sleep 0.1
++ cat /sys/fs/cgroup/cpu.max
+max 100000
++ sleep 0.1
++ cat /sys/fs/cgroup/cpu.stat
+usage_usec 27880448
+user_usec 23588099
+system_usec 4111518
+nr_periods 0
+nr_throttled 0
+throttled_usec 0
